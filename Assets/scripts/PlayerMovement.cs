@@ -106,7 +106,7 @@ public class PlayerMovement : MonoBehaviour
         {
             // Play footstep sound with slight pitch and volume variation
             audioSource.pitch = Random.Range(0.8f, 1.2f);
-            audioSource.volume = Random.Range(0.65f, 0.85f);
+            audioSource.volume = Random.Range(0.05f, 0.15f);
             audioSource.PlayOneShot(footstepSound);
 
             // Determine the interval based on current speed
